@@ -1,0 +1,183 @@
+body, html{
+	height:100%;
+	margin:0;
+	font-size:16px;
+	font-family:"Lato", sans-serif;
+	font-weight:400;
+	line-height:1.8em;
+	color:#666;
+}
+
+
+/* ============================ Parallax ============================= */
+
+.pimage1, .pimage2, .pimage3, .pimage4{
+	position:relative;
+	opacity:0.70;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.pimage1{
+	background-image:url('../img/panda.jpg');
+	min-height:100%;
+}
+
+.pimage2{
+	background-image:url('../img/giraffe.jpg');
+	min-height:400px;
+}
+
+.pimage3{
+	background-image:url('../img/flamingo.jpg');
+	min-height:400px;
+}
+
+.pimage4{
+	background-image:url('../img/penguin.jpg');
+	min-height:100%;
+}
+
+
+/* ============================ Sections ============================= */
+
+.section{
+	text-align:center;
+	padding:50px 80px;
+}
+
+.section-light{
+	background-color:#f4f4f4;
+	color:#666;
+}
+
+.section-dark{
+	background-color:#282e34;
+	color:#ddd;
+}
+
+.ptext{
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align:center;
+	color:#000;
+	font-size:27px;
+	letter-spacing:4px;
+	text-transform:uppercase;
+  	font-family: 'Luckiest Guy', cursive;
+}
+
+.ptext .border{
+	background: black;
+	color:#fff;
+	padding:20px;
+}
+
+.border{
+	font-size: 35px;
+	letter-spacing: 10px;
+}
+
+.ptext .border.trans{
+	background-color:transparent;
+}
+
+/* ============================ Navbar ============================= */
+
+.nav-link {
+	font-weight: bold;
+}
+
+.navbar-brand {
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 37px;
+}
+
+.navbar-nav > li{
+	padding-left:30px;
+	padding-right:30px;
+	font-family: 'Concert One', cursive;
+	font-size: 22px;
+}
+
+.title-text {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 40px;
+	font-weight: bold;
+	
+}
+
+
+/* ============================ Cards ============================= */
+
+.card {
+	background-color: #212121;
+	border-radius: 15px;
+	color: white;
+}
+
+.shape {
+	transform: skewX(5deg);
+	border: 6px solid white;
+}
+
+.shape-two {
+	transform: skewX(-5deg);
+	border: 6px solid white;
+}
+
+.normal {
+	transform: skewX(-5deg);
+	padding: 30px;
+}
+
+
+.border-text {
+	border: 5px solid white;
+	padding: 20px;
+	  border-radius: 25px;
+}
+
+.card-img-top:hover {
+	opacity: .75;
+}
+
+
+.rounded-circle {
+	border: 3px solid white;
+}
+
+/* ============================ Footer ============================= */
+
+footer {
+	background: #6d0000;
+}
+
+.social-icons {
+	font-size: 25px;
+}
+
+.list-unstyled {
+	font-size: 13px;
+}
+
+.icon {
+	font-size:50px;
+}
+
+.contact-box {
+	background: white;
+
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3, .pimg4{
+    background-attachment:scroll;
+  }
+}
+
+
+
